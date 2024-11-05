@@ -1,0 +1,47 @@
+#container {
+  height: fit-content;
+  min-height: 100vh;
+}
+
+#firstSectionHome {
+  height: 100vh;
+  background-image: url(../img/firtsdiv.jpg);
+  background-position: top;
+  background-size: cover;
+}
+.header {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  align-items: center;
+}
+
+.menuContainer {
+  display: flex;
+  width: 30%;
+  margin-left: 3%;
+  color: white;
+  justify-content: space-around;
+}
+
+.logo {
+  height: 100%;
+}
+
+.linkStyle {
+  text-decoration: none;
+  color: white;
+}
+
+/*INICIO QUEM SOMOS*/
+.midSectionHome {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../img/thor_header.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 70vh;
+}
+/*INICIO QUEM SOMOS*/
