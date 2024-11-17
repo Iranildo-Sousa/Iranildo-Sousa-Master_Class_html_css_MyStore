@@ -3,48 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/home.css" />
-    <title>Loja My Store</title>
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <title>Minha Loja</title>
   </head>
+
   <body>
     <header class="header">
-      <img class="logo" src="./assets/img/logo.png" alt="" />
-      <div class="menuContainer">
-        <a class="linkStyle" href="./index.html"><h3>Home</h3></a>
-        <a class="linkStyle" href="/catalog.html"><h3>Catálogo</h3></a>
-        <a class="linkStyle" href="./contact.html"><h3>Contato</h3></a>
+      <img src="./assets/img/logo.png" class="logo" />
+      <div class="menu-container">
+        <a href="./index.html" class="linkstyle">
+          <h3 class="menuText">Home</h3>
+        </a>
+        <a href="./catalog.html" class="linkstyle">
+          <h3 class="menuText">Catálogo</h3>
+        </a>
+        <a href="./contact.html" class="linkstyle">
+          <h3 class="menuText">Contato</h3>
+        </a>
       </div>
     </header>
 
     <main id="container">
       <section id="firstSectionHome"></section>
+
+      <!--Sessão Quem Somo - INÍCIO-->
       <section class="midSectionHome">
-        <div>
-          <h3>Quem somos</h3>
-          <hr />
+        <div class="aboutContainerMid">
+          <h3 class="aboutLineMind">Quem Somos</h3>
+          <hr class="solidDividerMid" />
         </div>
-        <div>
-          <div>
-            <h6>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Assumenda quos incidunt, consectetur unde corporis officia aliquam
-              facere perferendis earum reprehenderit et provident voluptas
-              laborum deleniti ipsam similique, quasi aspernatur at. Lorem ipsum
-              dolor sit amet consectetur, adipisicing elit. Temporibus
-              voluptatibus cumque, itaque reprehenderit voluptas debitis tempore
-              delectus excepturi, atque qui at officiis distinctio corporis
-              adipisci hic modi quis! Possimus, accusamus! Lorem ipsum dolor sit
-              amet, consectetur adipisicing elit. Cumque reprehenderit harum
-              pariatur, facilis sint quaerat, labore sapiente cupiditate quo
-              saepe consectetur architecto nulla! Laudantium, unde obcaecati
-              rerum animi molestiae eos?
-            </h6>
-          </div>
+
+        <div class="aboutTextContainer">
+          <h6 id="aboutTextMid">
+            Thor (from Old Norse: Þórr) is a prominent god in Germanic paganism.
+            In Norse mythology, he is a hammer-wielding god associated with
+            lightning, thunder, storms, sacred groves and trees, strength, the
+            protection of humankind, hallowing, and fertility. Besides Old Norse
+            Þórr, the deity occurs in Old English as Thunor, in Old Frisian as
+            Thuner, in Old Saxon as Thunar, and in Old High German as Donar, all
+            ultimately stemming from the Proto-Germanic theonym *Þun(a)raz,
+            meaning 'Thunder'.
+          </h6>
         </div>
       </section>
-      <section>
-        <a href="./catalog.html"><h2>Catálogo</h2></a>
+      <!--Sessão Quem Somos - FIM-->
+
+      <!--Sessão Catálogo - INÍCIO-->
+      <section class="lastSectionHome">
+        <div class="aboutContainer">
+          <h3 class="aboutLine">Catálogo</h3>
+          <hr class="solideDividerBottom" />
+        </div>
+
+        <div class="contacContainer">
+          <img
+            src="./assets/img/bonecos.png"
+            alt="bonecos"
+            class="catalogImage"
+          />
+          <div id="textContainer">
+            <h6 id="aboutTextLast">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
+              asperiores consequatur obcaecati qui assumenda a expedita quo
+              doloremque voluptatibus? Commodi, harum! Dicta, doloribus.
+              Assumenda quod labore ratione nemo voluptatem quasi! Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Nostrum, consectetur
+              dicta nihil repellat inventore ipsum hic reprehenderit culpa earum
+              sequi suscipit consequatur vero temporibus totam eveniet itaque
+              libero exercitationem ea.
+            </h6>
+            <div class="buttonVerCatalog">
+              <h3>Comprar</h3>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </body>

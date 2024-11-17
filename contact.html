@@ -1,10 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <title>Quem Somos</title>
+    <link rel="stylesheet" href="./assets/./css/style.css" />
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/contato.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Contato</title>
   </head>
-  <body></body>
+
+  <body>
+    <header class="header">
+      <img src="./assets/img/logo.png" class="logo" />
+      <div class="menu-container">
+        <a href="./index.html" class="linkstyle">
+          <h3 class="menuText">Home</h3>
+        </a>
+        <a href="./catalog.html" class="linkstyle">
+          <h3 class="menuText">Catálogo</h3>
+        </a>
+        <a href="./contact.html" class="linkstyle">
+          <h3 class="menuText">Contato</h3>
+        </a>
+      </div>
+    </header>
+    <main id="container">
+      <section id="firstSectionContac"></section>
+
+      <!--Sessão Contato - INÍCIO-->
+
+      <div class="contac-container">
+        <div class="background-contac">
+          <h3 id="contac">Entre em contato</h3>
+          <hr class="hrContac" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem ullam culpa perferendis voluptatibus doloribus
+            provident beatae dignissimos fugit iste vero, aspernatur nulla
+            mollitia esse laboriosam quibusdam aliquid sunt aliquam commodi.
+          </p>
+        </div>
+        <form>
+          <div>
+            <input type="text" placeholder="NOME" required />
+            <input type="email" placeholder="EMAIL" required />
+            <input type="tel" placeholder="TELEFONE" />
+          </div>
+          <textarea placeholder="Como posso ajudar?"></textarea>
+        </form>
+        <button type="submit">ENVIAR</button>
+      </div>
+    </main>
+  </body>
 </html>
